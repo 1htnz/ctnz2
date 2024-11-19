@@ -1,0 +1,43 @@
+.passer {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.centered-container {
+    text-align: center;
+}
+
+
+#password-input {
+    font-size: 18px;
+    padding: 12px;
+    width: 220px;
+    border: 2px solid #ffffff;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    outline: none;
+}
+
+#submit-button {
+    font-size: 14px;
+    padding: 8px 16px;
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#message {
+    position: absolute;
+    top: 315px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    color: #ffffff;
+}
